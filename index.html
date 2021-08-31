@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serhat Karaman</title>
+    <meta name="keyword" content="serhat karaman">
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!--Tablet-->
+    <link rel="stylesheet" media="(max-width:768px)" href="css/tablet.css">
+    <!--Phone-->
+    <link rel="stylesheet" media="(max-width: 500px)" href="css/mobile.css">
+</head>
+
+<body>
+    <header class="bg-dark-blue">
+        <div class="container">
+            <nav id="navbar">
+                <h1 class="heading-small">Serhat Karaman</h1>
+                <ul>
+                    <li><a href="#home">Ana Sayfa</a></li>
+                    <li><a href="#interests">İlgi Alanları</a></li>
+                    <li><a href="#skills">Yetenekler</a></li>
+                    <li><a href="#contact">İletişim</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <img src="./images/serhat.JPG" alt="Serhat Karaman" height="300px">
+        <div class="name text-center">
+            <h2 class="heading-big">Serhat Karaman</h2>
+            <p>Bilgisayar Mühendisi | Galatasaray Üniversitesi</p>
+
+        </div>
+        <a class="btn btn-primary" href="https://github.com/serhatkaraman?tab=repositories" target="_blank">Projelere
+            Git</a>
+    </section>
+    <section id="interests" class="bg-dark-blue">
+        <h3 class="text-center heading-medium">İlgi Alanları</h3>
+        <div class="items">
+            <article class="item">
+                <i class="fas fa-laptop-code"></i>
+                <h3>Web Programlama</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, et.</p>
+            </article>
+            <article class="item">
+                <i class="fas fa-laptop-code"></i>
+                <h3>Back-End Programlama</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, et.</p>
+            </article>
+            <article class="item">
+                <i class="fas fa-laptop-code"></i>
+                <h3>Konferanslar</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, et.</p>
+            </article>
+        </div>
+    </section>
+    <section id="skills">
+        <h3 class="text-center heading-medium">Yetenekler</h3>
+        <div class="container">
+            <div class="courses">
+                <!--Course 1-->
+                <div class="course">
+                    <div class="course-image">
+                        <img src="./images/java.jpg" alt="Java">
+                        <span>3.8/5</span>
+                    </div>
+                    <div class="course-info">
+                        <div class="title">JAVA</div>
+                        <div class="description">Orta Seviye Java Programlama Yeteneği</div>
+                        <div class="instructor">Serhat Karaman</div>
+
+                    </div>
+                </div>
+                <div class="course">
+                    <div class="course-image">
+                        <img src="./images/c.jpg" alt="C">
+                        <span>4.2/5</span>
+                    </div>
+                    <div class="course-info">
+                        <div class="title">C</div>
+                        <div class="description">İleri Seviye C Programlama Yeteneği</div>
+                        <div class="instructor">Serhat Karaman</div>
+
+
+                    </div>
+                </div>
+                <div class="course">
+                    <div class="course-image">
+                        <img src="./images/python.png" alt="Python">
+                        <span>2/5</span>
+                    </div>
+                    <div class="course-info">
+                        <div class="title">Python</div>
+                        <div class="description">Başlangıç Seviyesi Python Programlama Yeteneği</div>
+                        <div class="instructor">Serhat Karaman</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="contact" class="bg-dark-blue">
+        <form class="contact-form">
+            <h4 class="text-center heading-medium">Bana Ulaşın</h4>
+            <div class="form-group">
+                <label for="name">İsim</label>
+                <input type="text" class="form-control" name="name" id="name" placeholder="İsim">
+            </div>
+            <div class="form-group">
+                <label for="email">E-Posta</label>
+                <input type="text" class="form-control" name="email" id="email" placeholder="E-Posta">
+            </div>
+            <div class="form-group">
+                <label for="message">Mesaj</label>
+                <textarea name="message" id="message" class="form-control" rows="5" placeholder="Mesajınız"></textarea>
+            </div>
+            <button type="submit" class="btn btn-block send-button">GÖNDER</button>
+            <ul>
+                <li><a href="https://www.facebook.com/srhtkrmn" target="_blank" class="fab fa-facebook"></a></li>
+                <li><a href="https://twitter.com/srhtkrmn_" target="_blank" class="fab fa-twitter"></a></li>
+                <li><a href="https://www.instagram.com/srhtkrmn/" target="_blank" class="fab fa-instagram"></a></li>
+            </ul>
+        </form>
+
+    </footer>
+</body>
+
+</html>
